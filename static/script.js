@@ -38,7 +38,7 @@ function handleInputChange(event) {
             outputField.value = transliteratedText;
         });
     } else {
-        outputField.value = ''; // Очищаем поле, если вводим в другое
+        outputField.value = '';
     }
 }
 
