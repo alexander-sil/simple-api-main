@@ -8,3 +8,5 @@ $ python3 -m pip install leveldb
 $ python3 -m pip install flask
 $ python3 app.py
 ```
+
+В качестве БД используется LevelDB, фреймворк для апихи - Flask
