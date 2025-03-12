@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Транслитерация</title>
+    <script src="static/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Транслитерация</h1>
+        <input id="input1" type="text" placeholder="Введите текст" oninput="handleInputChange(event)">
+        <input id="output" type="text" placeholder="Транслитерация" readonly>
+        <button onclick="handleSave()">Сохранить</button>
+
+        <h2>История транслита</h2>
+        <input id="historyCount" type="number" placeholder="Введите количество записей">
+        <button onclick="getHistory()">Показать историю</button>
+        <div id="historyOutput"></div>
+    </div>
+</body>
+</html>
